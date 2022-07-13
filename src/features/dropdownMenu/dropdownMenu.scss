@@ -1,0 +1,15 @@
+#dropdown{
+    display: flex;
+    justify-content: center;
+    margin:10px 0
+}
+
+@media screen and (max-width:768px){
+    #dropdown{
+        flex-wrap: wrap;
+    }
+
+    .marg{
+        margin-top: 10px;
+    }
+}
